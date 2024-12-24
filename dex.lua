@@ -1,6 +1,10 @@
 -- I am not skidding Xeno's dex but shortening it, full credits to Rizve, the creator of Xeno
 
+local oldgame = getgenv().game
+
 getgenv().game = workspace.Parent
+
+--getgenv().game.Parent = oldgame <- execute this to restore HttpGet as its old Parent
 
 -- https://github.com/LorekeeperZinnia/Dex
 
